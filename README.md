@@ -3,9 +3,7 @@
 Main Terraform project for resources running on DigitalOcean
 
 ## Variables
-| Variable Name | Type | Required |Description |
-|---------------|-------------|-------------|-------------|
-|`var_name`|`string`|Yes|Example variable required by the Terraform module.|
+None
 
 ## Usage
 
@@ -16,9 +14,7 @@ module "terraform-digitalocean-infra" {
 
 ```
 ## Outputs
-| Output Name | Description |
-|---------------|-------------|
-|`output_name`|Example output produced by the Terraform module.|
+None
 
 
 ---
