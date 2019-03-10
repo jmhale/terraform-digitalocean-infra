@@ -14,7 +14,7 @@ provider "digitalocean" {
 }
 
 module "dnsproxy" {
-  source    = "../terraform-digitalocean-dnsproxy"
+  source    = "git@github.com:jmhale/terraform-digitalocean-dnsproxy.git"
   admin_ips = "${data.dns_a_record_set.my_ip.addrs}"
   user_ips  = "${data.dns_a_record_set.ludlow_ip.addrs}"
   ssh_keys  = ["7a:39:de:0c:a4:05:36:da:44:4c:ef:c0:06:01:73:ff"]
